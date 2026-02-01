@@ -1,6 +1,6 @@
 # Netlify build for frontend (use Base directory = "frontend" in Netlify if repo root contains backend + frontend)
 [build]
-  base = "frontend"
+  base = "QuickEats-frontend"
   publish = "dist"
   command = "npm run build"
 
