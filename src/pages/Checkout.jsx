@@ -194,7 +194,7 @@ const Checkout = () => {
           <div className="section-card">
             <h2 className="font-semibold text-gray-900 mb-4">Payment Method</h2>
             <div className="space-y-3">
-              <label className="flex items-center gap-3 p-4 rounded-xl border-2 border-gray-200 cursor-pointer hover:bg-gray-50 transition-colors has-[:checked]:border-orange-500 has-[:checked]:bg-orange-50">
+              <label className="flex items-center gap-3 p-4 rounded-xl border-2 border-gray-200 cursor-pointer hover:bg-gray-50 transition-colors has-checked:border-orange-500 has-checked:bg-orange-50">
                 <input
                   type="radio"
                   name="payment"
@@ -212,7 +212,7 @@ const Checkout = () => {
                   <p><strong>UPI:</strong> <code className="bg-amber-100 px-1 rounded">success@razorpay</code></p>
                 </div>
               )}
-              <label className="flex items-center gap-3 p-4 rounded-xl border-2 border-gray-200 cursor-pointer hover:bg-gray-50 transition-colors has-[:checked]:border-orange-500 has-[:checked]:bg-orange-50">
+              <label className="flex items-center gap-3 p-4 rounded-xl border-2 border-gray-200 cursor-pointer hover:bg-gray-50 transition-colors has-checked:border-orange-500 has-checked:bg-orange-50">
                 <input
                   type="radio"
                   name="payment"
